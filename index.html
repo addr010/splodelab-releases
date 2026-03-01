@@ -3,535 +3,726 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Splode Lab Live - Music Visualization Desktop App</title>
-    <meta name="description" content="Real-time music visualization for live performances and studio production. Free download for Windows & Mac.">
-    
-    <!-- Open Graph for Facebook/social sharing -->
-    <meta property="og:title" content="Splode Lab Live - Music Visualization Desktop App">
-    <meta property="og:description" content="Real-time music visualization for live performances. 50k+ downloads.">
+    <title>Splode Lab Live | Audio-Reactive Visuals for Stage and Stream</title>
+    <meta name="description" content="Splode Lab Live turns any set into a reactive light show. Free desktop app for Windows and macOS, built for DJs, VJs, clubs, and streamers.">
+
+    <meta property="og:title" content="Splode Lab Live | Audio-Reactive Visuals for Stage and Stream">
+    <meta property="og:description" content="Free desktop app for real-time music visualization. Download the latest Windows and macOS builds.">
     <meta property="og:url" content="https://addr010.github.io/splodelab-releases/">
     <meta property="og:type" content="website">
 
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Splode Lab Live - Music Visualization Desktop App">
-    <meta name="twitter:description" content="Real-time music visualization for live performances. Free for Windows & Mac.">
-    
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="twitter:title" content="Splode Lab Live | Audio-Reactive Visuals for Stage and Stream">
+    <meta name="twitter:description" content="Turn any set into a reactive light show. Free for Windows and macOS.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&amp;family=Barlow:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+
     <style>
         :root {
-            --bg: #1a1a1a;
-            --bg-secondary: #2a2a2a;
-            --border: #3a3a3a;
-            --text: #e0e0e0;
-            --text-secondary: #9a9a9a;
-            --accent: #d946ef;
-            --accent-hover: #e879f9;
+            --base-950: #090b0d;
+            --base-900: #11151a;
+            --base-850: #181d23;
+            --ink-100: #f5f6f7;
+            --ink-300: #c8ced5;
+            --ink-500: #8f99a3;
+            --accent-hot: #ff6a1f;
+            --accent-hot-soft: rgba(255, 106, 31, 0.24);
+            --accent-cool: #00d8ff;
+            --accent-cool-soft: rgba(0, 216, 255, 0.2);
+            --line: rgba(255, 255, 255, 0.12);
+            --card: rgba(17, 21, 26, 0.82);
+            --radius-lg: 18px;
+            --radius-md: 12px;
+            --shadow-hot: 0 12px 40px rgba(255, 106, 31, 0.25);
+            --shadow-cool: 0 12px 34px rgba(0, 216, 255, 0.18);
         }
 
         * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
-            background: linear-gradient(135deg, #1a1a1a 0%, #2a1a2e 50%, #1a1a2a 100%);
-            color: var(--text);
-            line-height: 1.6;
-            padding: 2rem;
             min-height: 100vh;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 3rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .creator-badge {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background: rgba(217, 70, 239, 0.1);
-            border: 1px solid rgba(217, 70, 239, 0.3);
-            border-radius: 20px;
-            font-size: 0.9rem;
-            margin-bottom: 1.5rem;
-            color: var(--text);
-        }
-
-        h1 {
-            font-family: 'Press Start 2P', cursive;
-            font-size: 2rem;
-            margin-bottom: 1rem;
-            background: linear-gradient(to right, #d946ef, #f472b6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            text-shadow: none;
-            filter: drop-shadow(3px 3px 0px rgba(0, 0, 0, 0.5));
-        }
-
-        .tagline {
-            font-size: 1.8rem;
-            font-weight: 700;
-            color: var(--text);
-            margin-bottom: 1rem;
-            line-height: 1.2;
-        }
-
-        .subtagline {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            margin-bottom: 2rem;
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            line-height: 1.6;
-        }
-
-        .cta-container {
-            margin: 2rem 0;
-        }
-
-        .cta-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 0.75rem;
-            padding: 1.25rem 2.5rem;
-            background: linear-gradient(135deg, var(--accent), #a855f7);
-            color: white;
-            text-decoration: none;
-            border: none;
-            border-radius: 12px;
-            font-size: 1.2rem;
-            font-weight: 700;
-            transition: all 0.3s;
-            box-shadow: 0 8px 32px rgba(217, 70, 239, 0.4);
-            cursor: pointer;
-        }
-
-        .cta-btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 12px 48px rgba(217, 70, 239, 0.6);
-            background: linear-gradient(135deg, #e879f9, #c084fc);
-        }
-
-        .cta-btn .icon {
-            width: 24px;
-            height: 24px;
-        }
-
-        .trust-line {
-            margin-top: 1rem;
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-        }
-
-        .benefits {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin: 3rem 0;
-        }
-
-        .benefit-card {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 2rem;
-            text-align: center;
-            transition: all 0.3s;
-        }
-
-        .benefit-card:hover {
-            border-color: var(--accent);
-            transform: translateY(-4px);
-            box-shadow: 0 8px 32px rgba(217, 70, 239, 0.2);
-        }
-
-        .benefit-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        .benefit-card h3 {
-            font-size: 1.2rem;
-            margin-bottom: 0.75rem;
-            color: var(--text);
-        }
-
-        .benefit-card p {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
+            font-family: 'Barlow', 'Segoe UI', sans-serif;
+            color: var(--ink-100);
+            background:
+                radial-gradient(circle at 15% -10%, rgba(255, 106, 31, 0.24), transparent 43%),
+                radial-gradient(circle at 82% 5%, rgba(0, 216, 255, 0.15), transparent 38%),
+                linear-gradient(140deg, var(--base-950), var(--base-900) 38%, #0b1118 70%, #11171f);
             line-height: 1.5;
+            overflow-x: hidden;
         }
 
-        .links {
-            display: flex;
-            gap: 1.5rem;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin-top: 1.5rem;
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background-image: linear-gradient(transparent 94%, rgba(255, 255, 255, 0.03) 100%);
+            background-size: 100% 4px;
+            opacity: 0.35;
+            z-index: 0;
         }
 
-        .btn {
-            display: inline-block;
-            padding: 0;
-            background: none;
-            color: var(--text-secondary);
-            text-decoration: none;
-            border: none;
-            font-size: 0.9rem;
-            font-weight: 400;
-            transition: color 0.2s;
+        .shell {
+            position: relative;
+            z-index: 1;
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 2rem 1.2rem 4rem;
         }
 
-        .btn:hover {
-            color: var(--accent);
-        }
-
-        .section {
-            margin-bottom: 3rem;
-        }
-
-        h2 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
-            color: var(--text);
-        }
-
-        .downloads {
-            display: grid;
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-
-        .download-card {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 2rem;
-            transition: all 0.3s;
-        }
-
-        .download-card:hover {
-            border-color: var(--accent);
-            box-shadow: 0 8px 32px rgba(217, 70, 239, 0.2);
-            transform: translateY(-2px);
-        }
-
-        .download-card:first-child {
-            border: 2px solid var(--accent);
-            box-shadow: 0 8px 32px rgba(217, 70, 239, 0.25);
-        }
-
-        .download-header {
+        .topbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 0.75rem;
-            flex-wrap: wrap;
-            gap: 0.5rem;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            border: 1px solid var(--line);
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0.9rem 1rem;
+            border-radius: 999px;
+            backdrop-filter: blur(8px);
+            animation: lift-in 0.65s ease-out both;
         }
 
-        .version-wrapper {
+        .logo {
+            font-family: 'Audiowide', sans-serif;
+            font-size: 0.98rem;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--ink-100);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--accent-cool);
+        }
+
+        .top-actions {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
-        }
-
-        .version {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--text);
-        }
-
-        .date {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 0.15rem 0.4rem;
-            background: rgba(217, 70, 239, 0.15);
-            color: var(--text-secondary);
-            border: 1px solid rgba(217, 70, 239, 0.3);
-            border-radius: 3px;
-            font-size: 0.65rem;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
-
-        .platform-links {
-            display: flex;
-            gap: 1rem;
-            margin-top: 1.5rem;
+            gap: 0.8rem;
             flex-wrap: wrap;
+            justify-content: flex-end;
         }
 
-        .platform-btn {
+        .mini-link {
+            color: var(--ink-300);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .mini-link:hover {
+            color: var(--accent-cool);
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 1.6rem;
+            margin-bottom: 2.2rem;
+        }
+
+        .hero-panel {
+            background: linear-gradient(165deg, rgba(255, 106, 31, 0.08), rgba(0, 216, 255, 0.08));
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            padding: 2.1rem;
+            position: relative;
+            overflow: hidden;
+            animation: lift-in 0.9s ease both;
+        }
+
+        .hero-panel::after {
+            content: '';
+            position: absolute;
+            inset: auto -10% -48% 30%;
+            height: 380px;
+            background: radial-gradient(circle, rgba(255, 106, 31, 0.16), transparent 70%);
+            pointer-events: none;
+        }
+
+        .kicker {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.78rem;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: var(--accent-cool);
+            background: rgba(0, 216, 255, 0.1);
+            border: 1px solid rgba(0, 216, 255, 0.3);
+            border-radius: 999px;
+            padding: 0.35rem 0.7rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-family: 'Audiowide', sans-serif;
+            font-size: clamp(2rem, 4vw, 3.45rem);
+            line-height: 1.05;
+            margin-bottom: 1.1rem;
+            text-transform: uppercase;
+            max-width: 14ch;
+            text-wrap: balance;
+        }
+
+        .hero-copy {
+            color: var(--ink-300);
+            font-size: clamp(1.03rem, 2vw, 1.18rem);
+            max-width: 52ch;
+            margin-bottom: 1.6rem;
+        }
+
+        .hero-cta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 0.95rem;
+        }
+
+        .btn-primary,
+        .btn-secondary {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 0.75rem;
-            padding: 1rem 2rem;
-            background: linear-gradient(135deg, var(--accent), #a855f7);
-            color: white;
+            gap: 0.55rem;
             text-decoration: none;
-            border: none;
-            border-radius: 8px;
-            font-size: 1rem;
-            font-weight: 600;
-            transition: all 0.3s;
-            box-shadow: 0 4px 16px rgba(217, 70, 239, 0.3);
-            flex: 1;
-            min-width: 200px;
+            font-weight: 700;
+            border-radius: 999px;
+            padding: 0.82rem 1.35rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+            border: 1px solid transparent;
+            white-space: nowrap;
         }
 
-        .platform-btn:hover {
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-hot), #ff935f);
+            color: #140700;
+            box-shadow: var(--shadow-hot);
+        }
+
+        .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(217, 70, 239, 0.5);
-            background: linear-gradient(135deg, #e879f9, #c084fc);
+            box-shadow: 0 18px 44px rgba(255, 106, 31, 0.34);
         }
 
-        .icon {
-            width: 24px;
-            height: 24px;
+        .btn-secondary {
+            border-color: rgba(0, 216, 255, 0.45);
+            color: var(--accent-cool);
+            background: rgba(0, 216, 255, 0.08);
         }
 
-        .requirements {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 1.5rem;
-            margin-top: 1.5rem;
+        .btn-secondary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-cool);
+            color: #7becff;
         }
 
-        .requirements h3 {
+        .trust-note {
+            color: var(--ink-500);
+            font-size: 0.92rem;
+            letter-spacing: 0.02em;
+        }
+
+        .stats {
+            display: grid;
+            gap: 0.75rem;
+            align-content: start;
+            animation: lift-in 1.05s ease both;
+        }
+
+        .stat-card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            padding: 1.15rem 1.1rem;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            letter-spacing: 0.09em;
+            text-transform: uppercase;
+            color: var(--ink-500);
+            margin-bottom: 0.25rem;
+            font-weight: 700;
+        }
+
+        .stat-value {
+            font-size: 1.45rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+        }
+
+        .stat-value.hot {
+            color: var(--accent-hot);
+        }
+
+        .stat-value.cool {
+            color: var(--accent-cool);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 0.9rem;
+            margin: 0 0 2.2rem;
+            animation: fade-up 1.2s ease both;
+        }
+
+        .feature {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            padding: 1.1rem 1rem 1rem;
+            position: relative;
+        }
+
+        .feature::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            border-radius: var(--radius-md) var(--radius-md) 0 0;
+            background: linear-gradient(90deg, var(--accent-hot), var(--accent-cool));
+            opacity: 0.85;
+        }
+
+        .feature h3 {
+            font-size: 1.02rem;
+            margin-bottom: 0.45rem;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+
+        .feature p {
+            color: var(--ink-300);
+            font-size: 0.96rem;
+        }
+
+        .release-section {
+            background: linear-gradient(160deg, rgba(0, 0, 0, 0.24), rgba(255, 106, 31, 0.07));
+            border: 1px solid var(--line);
+            border-radius: var(--radius-lg);
+            padding: 1.3rem;
+            margin-bottom: 2rem;
+            animation: fade-up 1.35s ease both;
+        }
+
+        .release-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.7rem;
+            flex-wrap: wrap;
             margin-bottom: 1rem;
-            color: var(--text);
         }
 
-        .requirements ul {
+        .release-head h2 {
+            font-family: 'Audiowide', sans-serif;
+            font-size: clamp(1.35rem, 3vw, 2rem);
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+        }
+
+        .release-hint {
+            color: var(--ink-500);
+            font-size: 0.92rem;
+        }
+
+        #releases {
+            display: grid;
+            gap: 0.82rem;
+        }
+
+        .release-card {
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            background: rgba(9, 11, 13, 0.72);
+            padding: 1rem;
+        }
+
+        .release-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.7rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.55rem;
+        }
+
+        .release-version {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--ink-100);
+        }
+
+        .release-date {
+            color: var(--ink-500);
+            font-size: 0.91rem;
+            font-weight: 500;
+        }
+
+        .chip {
+            display: inline-block;
+            margin-left: 0.6rem;
+            border-radius: 999px;
+            border: 1px solid rgba(0, 216, 255, 0.4);
+            padding: 0.18rem 0.55rem;
+            font-size: 0.72rem;
+            letter-spacing: 0.06em;
+            color: var(--accent-cool);
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+
+        .release-note {
+            color: var(--ink-300);
+            margin-bottom: 0.9rem;
+            font-size: 0.95rem;
+        }
+
+        .download-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            text-decoration: none;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: var(--ink-100);
+            background: rgba(255, 255, 255, 0.04);
+            padding: 0.6rem 0.95rem;
+            font-weight: 700;
+            transition: transform 0.2s ease, border-color 0.2s ease;
+            font-size: 0.92rem;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            border-color: var(--accent-hot);
+        }
+
+        .stack {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.9rem;
+            margin-bottom: 2.1rem;
+            animation: fade-up 1.45s ease both;
+        }
+
+        .panel {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: var(--radius-md);
+            padding: 1rem;
+        }
+
+        .panel h3 {
+            text-transform: uppercase;
+            font-size: 0.94rem;
+            letter-spacing: 0.09em;
+            color: var(--accent-cool);
+            margin-bottom: 0.6rem;
+        }
+
+        .panel p,
+        .panel li {
+            color: var(--ink-300);
+            font-size: 0.94rem;
+        }
+
+        .panel ul {
             list-style: none;
-            padding-left: 0;
+            display: grid;
+            gap: 0.42rem;
         }
 
-        .requirements li {
-            padding: 0.5rem 0;
-            color: var(--text-secondary);
-        }
-
-        .requirements li::before {
-            content: "→ ";
-            color: var(--accent);
-            margin-right: 0.5rem;
+        .panel li::before {
+            content: '▸ ';
+            color: var(--accent-hot);
         }
 
         footer {
-            text-align: center;
-            margin-top: 4rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border);
-            color: var(--text-secondary);
+            border-top: 1px solid var(--line);
+            padding-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            color: var(--ink-500);
+            font-size: 0.9rem;
+            animation: fade-up 1.55s ease both;
         }
 
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 1.5rem;
+        footer a {
+            color: var(--accent-cool);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .muted {
+            color: var(--ink-500);
+        }
+
+        @keyframes lift-in {
+            from {
+                opacity: 0;
+                transform: translateY(16px) scale(0.99);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @keyframes fade-up {
+            from {
+                opacity: 0;
+                transform: translateY(14px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @media (max-width: 980px) {
+            .hero {
+                grid-template-columns: 1fr;
             }
 
-            .tagline {
-                font-size: 1.4rem;
+            .stack {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 700px) {
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .shell {
+                padding: 1.1rem 0.82rem 3rem;
+            }
+
+            .hero-panel {
+                padding: 1.3rem;
+            }
+
+            .topbar {
+                border-radius: 16px;
+                align-items: flex-start;
+            }
+
+            .top-actions {
+                justify-content: flex-start;
+            }
+
+            .btn-primary,
+            .btn-secondary,
+            .download-btn {
+                width: 100%;
+                justify-content: center;
             }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="creator-badge">
-                <span style="color: var(--accent); font-weight: 600;">★</span> 50,000+ downloads • Top 20 VFX app
+    <main class="shell">
+        <div class="topbar">
+            <a class="logo" href="#">Splode <span>Lab</span> Live</a>
+            <div class="top-actions">
+                <a class="mini-link" href="https://github.com/addr010/splodelab" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a class="mini-link" href="https://github.com/addr010/splodelab/issues" target="_blank" rel="noopener noreferrer">Support</a>
             </div>
-            <h1>Splode Lab Live</h1>
-            <p class="tagline">Real-Time Music Visualization for Live Performance</p>
-            <p class="subtagline">Professional audio-reactive visualizations for DJs, VJs, and live performers. Control effects in real-time with an intuitive interface designed for the stage.</p>
-            
-            <div class="cta-container">
-                <a href="#download" class="cta-btn primary">
-                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                        <polyline points="7 10 12 15 17 10"></polyline>
-                        <line x1="12" y1="15" x2="12" y2="3"></line>
-                    </svg>
-                    Download Free (Windows & Mac)
-                </a>
-                <p class="trust-line">✔ Free forever • ✔ No subscription • ✔ Live performance ready</p>
-            </div>
+        </div>
 
-            <div class="links">
-                <a href="https://github.com/addr010/splodelab" class="btn">GitHub</a>
-                <a href="https://github.com/addr010/splodelab/issues" class="btn">Report Issue</a>
-            </div>
-        </header>
+        <section class="hero">
+            <article class="hero-panel">
+                <p class="kicker">Built for stage pressure</p>
+                <h1>Your music deserves visuals with impact.</h1>
+                <p class="hero-copy">
+                    Splode Lab Live is a desktop engine for real-time audio-reactive visuals. Drop it into clubs, live streams, and touring rigs to transform every beat into a controlled visual moment.
+                </p>
+                <div class="hero-cta">
+                    <a href="#download" class="btn-primary">Download Free</a>
+                    <a href="https://github.com/addr010/splodelab-releases/releases" class="btn-secondary" target="_blank" rel="noopener noreferrer">See All Releases</a>
+                </div>
+                <p class="trust-note">No subscription. Windows + macOS builds. Donation-ware.</p>
+            </article>
 
-        <section class="section">
-            <div class="benefits">
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎵</div>
-                    <h3>Audio-Reactive Magic</h3>
-                    <p>Particle systems that dance to your music in real-time. Multiple visualization modes for any genre or vibe.</p>
+            <aside class="stats" aria-label="Trust and performance stats">
+                <div class="stat-card">
+                    <div class="stat-label">Community traction</div>
+                    <div class="stat-value hot">50,000+ downloads</div>
                 </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">🎮</div>
-                    <h3>Live Performance Controls</h3>
-                    <p>Intuitive UI designed for stage use. Switch effects, adjust parameters, and create stunning visuals on the fly.</p>
+                <div class="stat-card">
+                    <div class="stat-label">Performance target</div>
+                    <div class="stat-value cool">Low-latency response</div>
                 </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">⚡</div>
-                    <h3>Zero Latency</h3>
-                    <p>Built for live performance with GPU acceleration. Your visuals respond instantly to every beat and drop.</p>
+                <div class="stat-card">
+                    <div class="stat-label">Release model</div>
+                    <div class="stat-value">Free &amp; open workflow</div>
                 </div>
-            </div>
+            </aside>
         </section>
 
-        <section class="section" id="download">
-            <h2>Download Latest Release</h2>
-            <div class="downloads" id="releases">
-                <!-- Releases will be loaded here via JavaScript -->
-                <div class="download-card">
-                    <div class="download-header">
-                        <span class="version">Loading releases...</span>
+        <section class="feature-grid" aria-label="Product benefits">
+            <article class="feature">
+                <h3>Reactive by Design</h3>
+                <p>Visual systems track rhythm, transients, and energy in real time for immediate audience feedback.</p>
+            </article>
+            <article class="feature">
+                <h3>Live Control Surface</h3>
+                <p>Switch looks fast during performance with direct controls that stay usable under pressure.</p>
+            </article>
+            <article class="feature">
+                <h3>Desktop Reliability</h3>
+                <p>Purpose-built native app architecture for stable sessions on both Windows and Apple Silicon macOS.</p>
+            </article>
+        </section>
+
+        <section id="download" class="release-section">
+            <div class="release-head">
+                <h2>Latest Builds</h2>
+                <p class="release-hint">Pulling live release data from GitHub.</p>
+            </div>
+            <div id="releases">
+                <article class="release-card">
+                    <div class="release-meta">
+                        <div class="release-version">Loading releases...</div>
                     </div>
-                    <p style="color: var(--text-secondary);">Please wait while we fetch the latest releases from GitHub.</p>
-                </div>
+                    <p class="release-note">Fetching current Windows and macOS downloads.</p>
+                </article>
             </div>
         </section>
 
-        <section class="section">
-            <div class="requirements">
+        <section class="stack" aria-label="Usage and system information">
+            <article class="panel">
                 <h3>System Requirements</h3>
                 <ul>
-                    <li><strong>Windows:</strong> Windows 10/11 (64-bit)</li>
-                    <li><strong>macOS:</strong> macOS 11 (Big Sur) or later (Apple Silicon)</li>
-                    <li><strong>GPU:</strong> OpenGL 3.3+ compatible graphics card</li>
+                    <li>Windows 10/11 (64-bit)</li>
+                    <li>macOS 11+ (Apple Silicon)</li>
+                    <li>OpenGL 3.3+ compatible GPU</li>
                 </ul>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2>Installation</h2>
-            <div class="requirements">
-                <h3>Windows</h3>
+            </article>
+            <article class="panel">
+                <h3>First Launch</h3>
                 <ul>
-                    <li>Download the <code>.exe</code> installer</li>
-                    <li>Run the installer and follow the prompts</li>
-                    <li>Windows may show a security warning — click "More info" and "Run anyway"</li>
+                    <li>Windows: run `.exe`, approve SmartScreen if prompted.</li>
+                    <li>macOS: unzip, move app to Applications, then right-click Open first time.</li>
+                    <li>Use audio input and start the visual engine immediately.</li>
                 </ul>
-            </div>
-            <div class="requirements" style="margin-top: 1rem;">
-                <h3>macOS</h3>
-                <ul>
-                    <li>Download the <code>.zip</code> file</li>
-                    <li>Extract and drag Splode Lab Live to your Applications folder</li>
-                    <li>Right-click the app and select "Open" to bypass Gatekeeper on first launch</li>
-                </ul>
-            </div>
+            </article>
         </section>
 
         <footer>
-            <div style="margin-bottom: 2rem;">
-                <h3 style="margin-bottom: 1rem; color: var(--text);">Ready to visualize?</h3>
-                <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">Splode Lab Live is free to download and use for personal and commercial projects.</p>
-                <a href="#download" class="cta-btn" style="font-size: 1rem; padding: 1rem 2rem;">
-                    Get Started Free
-                </a>
-            </div>
-            <p style="margin-top: 2rem;">Splode Lab Live is donation-ware — free to use. If it helps your shows, consider sharing the love.</p>
+            <p>Splode Lab Live is donation-ware for creators, clubs, and studios.</p>
+            <p class="muted">Source and issues: <a href="https://github.com/addr010/splodelab" target="_blank" rel="noopener noreferrer">github.com/addr010/splodelab</a></p>
         </footer>
-    </div>
+    </main>
 
     <script>
-        // Fetch releases from GitHub API
+        function formatDate(isoDate) {
+            return new Date(isoDate).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            });
+        }
+
+        function findAsset(assets, predicate) {
+            for (const asset of assets) {
+                if (predicate(asset)) {
+                    return asset;
+                }
+            }
+            return null;
+        }
+
+        function releaseCardHtml(release) {
+            const winAsset = findAsset(
+                release.assets,
+                (asset) => asset.name.toLowerCase().includes('win') && asset.name.toLowerCase().endsWith('.exe')
+            );
+            const macAsset = findAsset(
+                release.assets,
+                (asset) => asset.name.toLowerCase().includes('mac') && asset.name.toLowerCase().endsWith('.zip')
+            );
+
+            const notes = release.body
+                ? release.body.split('\n').find((line) => line.trim().length > 0) || 'Latest release available now.'
+                : 'Latest release available now.';
+
+            const preReleaseChip = release.prerelease ? '<span class="chip">Pre-release</span>' : '';
+
+            let downloadRow = '';
+            if (winAsset) {
+                downloadRow += `<a class="download-btn" href="${winAsset.browser_download_url}">Windows (.exe)</a>`;
+            }
+            if (macAsset) {
+                downloadRow += `<a class="download-btn" href="${macAsset.browser_download_url}">macOS (.zip)</a>`;
+            }
+            if (!downloadRow) {
+                downloadRow = '<span class="muted">No direct installer assets found for this tag.</span>';
+            }
+
+            return `
+                <article class="release-card">
+                    <div class="release-meta">
+                        <div class="release-version">${release.tag_name}${preReleaseChip}</div>
+                        <div class="release-date">${formatDate(release.published_at)}</div>
+                    </div>
+                    <p class="release-note">${notes}</p>
+                    <div class="download-row">${downloadRow}</div>
+                </article>
+            `;
+        }
+
         async function loadReleases() {
+            const releasesContainer = document.getElementById('releases');
+
             try {
                 const response = await fetch('https://api.github.com/repos/addr010/splodelab-releases/releases');
+                if (!response.ok) {
+                    throw new Error('GitHub API returned an error response.');
+                }
+
                 const releases = await response.json();
+                if (!Array.isArray(releases) || releases.length === 0) {
+                    throw new Error('No releases returned by the API.');
+                }
 
-                const releasesContainer = document.getElementById('releases');
-                releasesContainer.innerHTML = '';
-
-                releases.slice(0, 2).forEach(release => {
-                    const card = document.createElement('div');
-                    card.className = 'download-card';
-
-                    const date = new Date(release.published_at).toLocaleDateString('en-US', {
-                        year: 'numeric',
-                        month: 'long',
-                        day: 'numeric'
-                    });
-
-                    const prereleaseBadge = release.prerelease ? '<span class="badge">Pre-release</span>' : '';
-                    
-                    const winAsset = release.assets.find(a => a.name.toLowerCase().includes('win') && a.name.endsWith('.exe'));
-                    const macAsset = release.assets.find(a => a.name.toLowerCase().includes('macos') && a.name.endsWith('.zip'));
-                    
-                    let platformLinks = '';
-                    if (winAsset) {
-                        platformLinks += `
-                            <a href="${winAsset.browser_download_url}" class="platform-btn">
-                                <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
-                                </svg>
-                                Windows
-                            </a>
-                        `;
-                    }
-                    if (macAsset) {
-                        platformLinks += `
-                            <a href="${macAsset.browser_download_url}" class="platform-btn">
-                                <svg class="icon" viewBox="0 0 24 24" fill="currentColor">
-                                    <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
-                                </svg>
-                                macOS
-                            </a>
-                        `;
-                    }
-
-                    card.innerHTML = `
-                        <div class="download-header">
-                            <div class="version-wrapper">
-                                <span class="version">${release.tag_name}</span>
-                                ${prereleaseBadge}
-                            </div>
-                            <span class="date">${date}</span>
-                        </div>
-                        ${release.body ? `<p style="color: var(--text-secondary); font-size: 0.9rem; margin-top: 0.5rem;">${release.body.split('\n')[0]}</p>` : ''}
-                        <div class="platform-links">
-                            ${platformLinks || '<p style="color: var(--text-secondary);">No downloads available</p>'}
-                        </div>
-                    `;
-
-                    releasesContainer.appendChild(card);
-                });
+                releasesContainer.innerHTML = releases.slice(0, 3).map(releaseCardHtml).join('');
             } catch (error) {
-                document.getElementById('releases').innerHTML = `
-                    <div class="download-card">
-                        <p style="color: var(--text-secondary);">Unable to load releases. Please visit the <a href="https://github.com/addr010/splodelab-releases/releases" style="color: var(--accent);">GitHub Releases page</a> directly.</p>
-                    </div>
+                releasesContainer.innerHTML = `
+                    <article class="release-card">
+                        <p class="release-note">Could not load live release data right now.</p>
+                        <div class="download-row">
+                            <a class="download-btn" href="https://github.com/addr010/splodelab-releases/releases" target="_blank" rel="noopener noreferrer">Open GitHub Releases</a>
+                        </div>
+                    </article>
                 `;
             }
         }
