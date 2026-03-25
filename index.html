@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Splode Lab Live | Audio-Reactive Visuals for Stage and Stream</title>
-    <meta name="description" content="Splode Lab Live turns any set into a reactive light show. Free desktop app for Windows and macOS, built for DJs, VJs, clubs, and streamers.">
+    <title>Splode Lab Live | Audio-Reactive Visuals for Small Shows and Experiments</title>
+    <meta name="description" content="Splode Lab Live is a free desktop app for audio-reactive visuals, built for VJs, hobbyists, small shows, and anyone who wants to experiment without a giant workflow.">
 
-    <meta property="og:title" content="Splode Lab Live | Audio-Reactive Visuals for Stage and Stream">
-    <meta property="og:description" content="Free desktop app for real-time music visualization. Download the latest Windows and macOS builds.">
+    <meta property="og:title" content="Splode Lab Live | Audio-Reactive Visuals for Small Shows and Experiments">
+    <meta property="og:description" content="A free desktop app for real-time music visualization, built for trying ideas, small projects, and live sets.">
     <meta property="og:url" content="https://addr010.github.io/splodelab-releases/">
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Splode Lab Live | Audio-Reactive Visuals for Stage and Stream">
-    <meta name="twitter:description" content="Turn any set into a reactive light show. Free for Windows and macOS.">
+    <meta name="twitter:title" content="Splode Lab Live | Audio-Reactive Visuals for Small Shows and Experiments">
+    <meta name="twitter:description" content="Free audio-reactive visuals for VJs, hobbyists, and small live projects on Windows and macOS.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -156,6 +156,7 @@
         .kicker {
             display: inline-flex;
             align-items: center;
+            flex-wrap: wrap;
             gap: 0.5rem;
             font-size: 0.78rem;
             letter-spacing: 0.14em;
@@ -235,6 +236,19 @@
             color: var(--ink-500);
             font-size: 0.92rem;
             letter-spacing: 0.02em;
+        }
+
+        .preview-badge {
+            display: inline-flex;
+            align-items: center;
+            border-radius: 999px;
+            border: 1px solid rgba(255, 106, 31, 0.45);
+            background: rgba(255, 106, 31, 0.14);
+            color: #ffb184;
+            padding: 0.2rem 0.5rem;
+            font-size: 0.68rem;
+            letter-spacing: 0.08em;
+            font-weight: 800;
         }
 
         .stats {
@@ -343,6 +357,13 @@
         .release-hint {
             color: var(--ink-500);
             font-size: 0.92rem;
+        }
+
+        .mobile-note {
+            display: none;
+            color: var(--ink-500);
+            font-size: 0.9rem;
+            margin-top: 0.25rem;
         }
 
         #releases {
@@ -531,12 +552,29 @@
             }
 
             .topbar {
+                flex-direction: column;
                 border-radius: 16px;
-                align-items: flex-start;
+                align-items: stretch;
+                margin-bottom: 1.6rem;
             }
 
             .top-actions {
                 justify-content: flex-start;
+            }
+
+            h1 {
+                max-width: none;
+            }
+
+            .stats,
+            .release-head,
+            .release-meta,
+            footer {
+                gap: 0.9rem;
+            }
+
+            footer {
+                flex-direction: column;
             }
 
             .btn-primary,
@@ -546,6 +584,94 @@
                 justify-content: center;
             }
         }
+
+        @media (max-width: 480px) {
+            .shell {
+                padding: 0.8rem 0.72rem 2.4rem;
+            }
+
+            .topbar {
+                padding: 0.85rem 0.9rem;
+            }
+
+            .logo {
+                font-size: 0.88rem;
+                line-height: 1.35;
+            }
+
+            .mini-link {
+                font-size: 0.9rem;
+            }
+
+            .hero-panel,
+            .release-section,
+            .panel,
+            .release-card,
+            .stat-card,
+            .feature {
+                padding-left: 0.95rem;
+                padding-right: 0.95rem;
+            }
+
+            .hero-panel {
+                padding-top: 1.15rem;
+                padding-bottom: 1.15rem;
+            }
+
+            .kicker {
+                font-size: 0.7rem;
+                letter-spacing: 0.1em;
+            }
+
+            h1 {
+                font-size: 1.72rem;
+                line-height: 1.08;
+                margin-bottom: 0.9rem;
+            }
+
+            .hero-copy {
+                font-size: 0.98rem;
+                margin-bottom: 1.2rem;
+            }
+
+            .trust-note,
+            .release-hint,
+            .mobile-note,
+            .release-date,
+            .panel p,
+            .panel li,
+            .feature p,
+            footer,
+            .muted {
+                font-size: 0.88rem;
+            }
+
+            .stat-label {
+                font-size: 0.68rem;
+            }
+
+            .stat-value {
+                font-size: 1.12rem;
+                line-height: 1.2;
+            }
+
+            .feature h3,
+            .panel h3 {
+                font-size: 0.9rem;
+            }
+
+            .release-version {
+                font-size: 1.02rem;
+            }
+
+            .download-btn {
+                min-height: 44px;
+            }
+
+            .mobile-note {
+                display: block;
+            }
+        }
     </style>
 </head>
 <body>
@@ -553,67 +679,68 @@
         <div class="topbar">
             <a class="logo" href="#">Splode <span>Lab</span> Live</a>
             <div class="top-actions">
-                <a class="mini-link" href="https://github.com/addr010/splodelab" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a class="mini-link" href="https://github.com/addr010/splodelab/issues" target="_blank" rel="noopener noreferrer">Support</a>
+                <a class="mini-link" href="https://github.com/addr010/splodelab-releases" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a class="mini-link" href="https://github.com/addr010/splodelab-releases/issues" target="_blank" rel="noopener noreferrer">Support</a>
             </div>
         </div>
 
         <section class="hero">
             <article class="hero-panel">
-                <p class="kicker">Built for stage pressure</p>
-                <h1>Your music deserves visuals with impact.</h1>
+                <p class="kicker">A community project for live visuals <span class="preview-badge">In Preview</span></p>
+                <h1>Audio-reactive visuals without the giant workflow.</h1>
                 <p class="hero-copy">
-                    Splode Lab Live is a desktop engine for real-time audio-reactive visuals. Drop it into clubs, live streams, and touring rigs to transform every beat into a controlled visual moment.
+                    Splode Lab Live is a desktop app for people who want to play with VJ software, build visuals for a set, run their own movie clips and VJ loops, or put together small shows without getting buried in menus, licenses, or enterprise-sized feature lists.
                 </p>
                 <div class="hero-cta">
                     <a href="#download" class="btn-primary">Download Free</a>
                     <a href="https://github.com/addr010/splodelab-releases/releases" class="btn-secondary" target="_blank" rel="noopener noreferrer">See All Releases</a>
                 </div>
-                <p class="trust-note">No subscription. Windows + macOS builds. Donation-ware.</p>
+                <p class="trust-note">Free to use. Windows + macOS builds. Donation-supported. Close to release, but still a preview build and likely to keep evolving.</p>
             </article>
 
             <aside class="stats" aria-label="Trust and performance stats">
                 <div class="stat-card">
-                    <div class="stat-label">Community traction</div>
-                    <div class="stat-value hot">50,000+ downloads</div>
+                    <div class="stat-label">Best for</div>
+                    <div class="stat-value hot">Small shows, streams, and experiments</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-label">Performance target</div>
-                    <div class="stat-value cool">Low-latency response</div>
+                    <div class="stat-label">What it feels like</div>
+                    <div class="stat-value cool">Fast, reactive, and easy to start</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-label">Release model</div>
-                    <div class="stat-value">Free &amp; open workflow</div>
+                    <div class="stat-label">Project model</div>
+                    <div class="stat-value">Passion project, shared with the community</div>
                 </div>
             </aside>
         </section>
 
         <section class="feature-grid" aria-label="Product benefits">
             <article class="feature">
-                <h3>Reactive by Design</h3>
-                <p>Visual systems track rhythm, transients, and energy in real time for immediate audience feedback.</p>
+                <h3>Easy to Get Running</h3>
+                <p>Open it, feed in audio, and start exploring reactive looks without setting up a huge production pipeline first, including MilkDrop presets and ISF-based visuals.</p>
             </article>
             <article class="feature">
-                <h3>Live Control Surface</h3>
-                <p>Switch looks fast during performance with direct controls that stay usable under pressure.</p>
+                <h3>Made for Sets and Small Shows</h3>
+                <p>Switch visuals quickly when you are playing a set or shaping a small show, whether you are running reactive effects, movie clips, your own VJ loops, or simple Auto Play options while you focus on the music.</p>
             </article>
             <article class="feature">
-                <h3>Desktop Reliability</h3>
-                <p>Purpose-built native app architecture for stable sessions on both Windows and Apple Silicon macOS.</p>
+                <h3>Capable, Not Bloated</h3>
+                <p>Built to feel solid on Windows and Apple Silicon macOS, with support for practical live-visual tools like audio-reactive effects, MilkDrop, ISF, and clip playback.</p>
             </article>
         </section>
 
         <section id="download" class="release-section">
             <div class="release-head">
                 <h2>Latest Builds</h2>
-                <p class="release-hint">Pulling live release data from GitHub.</p>
+                <p class="release-hint">Latest preview builds for Windows and macOS, pulled from GitHub.</p>
             </div>
+            <p class="mobile-note">Desktop app for Windows and macOS. Handy to browse here, easier to download on your computer.</p>
             <div id="releases">
                 <article class="release-card">
                     <div class="release-meta">
                         <div class="release-version">Loading releases...</div>
                     </div>
-                    <p class="release-note">Fetching current Windows and macOS downloads.</p>
+                    <p class="release-note">Fetching current preview downloads for Windows and macOS.</p>
                 </article>
             </div>
         </section>
@@ -638,8 +765,9 @@
         </section>
 
         <footer>
-            <p>Splode Lab Live is donation-ware for creators, clubs, and studios.</p>
-            <p class="muted">Source and issues: <a href="https://github.com/addr010/splodelab" target="_blank" rel="noopener noreferrer">github.com/addr010/splodelab</a></p>
+            <p>Splode Lab Live is a donation-supported community project for DJs, VJs, hobbyists, and small live setups.</p>
+            <p class="muted">From the maker of Splode Lab EX for iPad, rated 4.0 on the App Store across 1,600 ratings.</p>
+            <p class="muted">Releases and issues: <a href="https://github.com/addr010/splodelab-releases" target="_blank" rel="noopener noreferrer">github.com/addr010/splodelab-releases</a></p>
         </footer>
     </main>
 
