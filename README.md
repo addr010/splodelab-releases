@@ -1,20 +1,25 @@
 # Splode Lab Live
 
-Real-time music visualization for live performances and studio production.
+Real-time music visualization for sets, experiments, and small live projects. Currently in preview.
 
 [⬇️ Download Splode Lab Live](https://addr010.github.io/splodelab-releases/)
 
 ## What is Splode Lab Live?
 
-Splode Lab Live is a professional music visualization desktop app for DJs, VJs, and live performers. Create stunning audio-reactive particle effects and visuals that respond to your music in real-time.
+Splode Lab Live is a desktop app for DJs, VJs, hobbyists, and live performers who want responsive visuals without a huge workflow. It is built for trying ideas quickly, using it in small shows, playing movie clips and VJ loops, and getting straight to audio-reactive visuals.
+
+It is close to release, but still in preview while the workflow and feature set continue to get tightened up.
 
 ### Features
 
 - Real-time audio-reactive particle systems
-- Multiple visualization modes optimized for live performance
+- Multiple visualization modes designed for live use without unnecessary complexity
+- Support for MilkDrop presets and ISF shaders
 - Low-latency GPU-accelerated rendering
-- Intuitive controls designed for stage use
+- Direct controls that stay practical during a set or small show
 - Support for audio input and file playback
+- Useful for mixing reactive visuals with your own movie clips and VJ loops
+- Simple Auto Play options for DJs who want visuals running while they focus on the set
 
 ## Download
 
@@ -40,8 +45,8 @@ Visit the [download page](https://addr010.github.io/splodelab-releases/) to get 
 
 ## Support
 
-Found a bug? [Open an issue](https://github.com/addr010/splodelab/issues)
+Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issues)
 
 ## About
 
-This repository stores build artifacts for Splode Lab Live, published from [github.com/addr010/splodelab](https://github.com/addr010/splodelab).
+This repository stores build artifacts for Splode Lab Live, a donation-supported community project published from [github.com/addr010/splodelab](https://github.com/addr010/splodelab).
