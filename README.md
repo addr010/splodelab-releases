@@ -32,7 +32,7 @@ Visit the [download page](https://splodelab.com/) to get the latest release for 
 **Windows:**
 1. Download the installer
 2. Run the .exe file
-3. Windows may show a security warning — click "More info" and "Run anyway"
+3. Windows may show a security warning. Click "More info" then "Run anyway"
 
 **macOS:**
 1. Download the .zip file
@@ -51,10 +51,10 @@ Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issue
 
 ## The Splode Lab family
 
-- **Splode Lab Live** — free desktop app for Windows & macOS (this repo). In preview.
-- **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)** — real-time visual effects for iPad & iPhone on the App Store. 4.6 ★. Draw with fire, tap explosions, and export video loops for your VJ software.
+- **Splode Lab Live**: free desktop app for Windows & macOS (this repo). In preview.
+- **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)**: real-time visual effects for iPad & iPhone on the App Store. 4.6 ★. Draw with fire, tap explosions, and export video loops for your VJ software.
 
-Two different apps under one name — pick whichever fits what you're doing.
+Two different apps under one name. Pick whichever fits what you're doing.
 
 ## About
 
