@@ -2,7 +2,9 @@
 
 Real-time music visualization for sets, experiments, and small live projects. Currently in preview.
 
-[⬇️ Download Splode Lab Live](https://addr010.github.io/splodelab-releases/)
+A sibling to **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)**, the real-time visual effects app for iPad & iPhone (4.6 ★ on the App Store).
+
+[⬇️ Download Splode Lab Live](https://splodelab.com/) &nbsp;·&nbsp; [📱 Splode Lab EX for iPad](https://apps.apple.com/app/splode-lab-ex/id1275951874)
 
 ## What is Splode Lab Live?
 
@@ -23,7 +25,7 @@ It is close to release, but still in preview while the workflow and feature set 
 
 ## Download
 
-Visit the [download page](https://addr010.github.io/splodelab-releases/) to get the latest release for Windows or macOS.
+Visit the [download page](https://splodelab.com/) to get the latest release for Windows or macOS.
 
 ### Installation
 
@@ -47,6 +49,13 @@ Visit the [download page](https://addr010.github.io/splodelab-releases/) to get 
 
 Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issues)
 
+## The Splode Lab family
+
+- **Splode Lab Live** — free desktop app for Windows & macOS (this repo). In preview.
+- **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)** — real-time visual effects for iPad & iPhone on the App Store. 4.6 ★. Draw with fire, tap explosions, and export video loops for your VJ software.
+
+Two different apps under one name — pick whichever fits what you're doing.
+
 ## About
 
-This repository stores build artifacts for Splode Lab Live, a donation-supported community project published from [github.com/addr010/splodelab](https://github.com/addr010/splodelab).
+This repository hosts the release builds and download page for Splode Lab Live, a free, donation-supported project from Six Foot Games.
