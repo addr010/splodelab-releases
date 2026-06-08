@@ -1,61 +1,65 @@
 # Splode Lab Live
 
-Real-time music visualization for sets, experiments, and small live projects. Currently in preview.
+Free desktop VJ software, made by one retired coder for the live visuals community.
 
-A sibling to **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)**, the real-time visual effects app for iPad & iPhone (4.6 ★ on the App Store).
+Since 2010 I've been building and giving away free VJ tools. Splode Lab Live is my main desktop app: clip decks, MilkDrop presets, ISF shaders, JavaScript motion graphics and audio reactivity, all in a lightweight package that just works. No subscriptions, no accounts.
 
-[⬇️ Download Splode Lab Live](https://splodelab.com/) &nbsp;·&nbsp; [📱 Splode Lab EX for iPad](https://apps.apple.com/app/splode-lab-ex/id1275951874)
+A sibling to **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)**, the real-time visual effects app for iPad & iPhone (4.6 stars on the App Store). Same name, different app.
+
+[Download Splode Lab Live](https://splodelab.com/) &nbsp;·&nbsp; [Splode Lab EX for iPad](https://apps.apple.com/app/splode-lab-ex/id1275951874)
 
 ## What is Splode Lab Live?
 
-Splode Lab Live is a desktop app for DJs, VJs, hobbyists, and live performers who want responsive visuals without a huge workflow. It is built for trying ideas quickly, using it in small shows, playing movie clips and VJ loops, and getting straight to audio-reactive visuals.
+A desktop app for VJs, musicians, hobbyists and live performers who want responsive visuals without a huge workflow. Open the app, choose your audio input (or just play music on your computer), and the visuals start reacting straight away. Drop in video clips, MilkDrop presets or ISF shaders and you're performing in seconds.
 
-It is close to release, but still in preview while the workflow and feature set continue to get tightened up.
+I built it to be used on stage, not just for pretty renders.
 
-### Features
+### What it does
 
-- Real-time audio-reactive particle systems
-- Multiple visualization modes designed for live use without unnecessary complexity
-- Support for MilkDrop presets and ISF shaders
-- Low-latency GPU-accelerated rendering
-- Direct controls that stay practical during a set or small show
-- Support for audio input and file playback
-- Useful for mixing reactive visuals with your own movie clips and VJ loops
-- Simple Auto Play options for DJs who want visuals running while they focus on the set
+- Clip decks for video and VJ loops, with easy switching and layering
+- Strong MilkDrop 2 preset support
+- Full ISF shader support
+- JavaScript for your own custom motion graphics
+- Real-time audio reactivity from input or file playback
+- OSC and MIDI control
+- Auto-play mode so you can focus on the music
+- Open and hackable on purpose
 
 ## Download
 
-Visit the [download page](https://splodelab.com/) to get the latest release for Windows or macOS.
+Get the latest release for Windows or macOS from the [download page](https://splodelab.com/).
 
 ### Installation
 
 **Windows:**
-1. Download the installer
-2. Run the .exe file
-3. Windows may show a security warning. Click "More info" then "Run anyway"
+1. Download the .exe
+2. Run it. Windows may show a SmartScreen warning. Click "More info" then "Run anyway"
 
 **macOS:**
-1. Download the .zip file
-2. Extract and drag to Applications
-3. Right-click and select "Open" on first launch to bypass Gatekeeper
+1. Download the .zip
+2. Unzip and move it to Applications
+3. Right-click and select "Open" on first launch to get past Gatekeeper
 
-## System Requirements
+## System requirements
 
 - **Windows:** Windows 10/11 (64-bit)
 - **macOS:** macOS 11 (Big Sur) or later (Apple Silicon)
 - **GPU:** OpenGL 3.3+ compatible graphics card
 
-## Support
+## Community & support
 
-Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issues)
+- Free community on [Skool](https://www.skool.com/pixel-pig-2056) for tutorials, workflow breakdowns and help. No Discord required.
+- Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issues).
+- If the app is useful and you want to support development, there's a [Buy Me A Coffee](https://buymeacoffee.com/gammaridersworld). A simple thanks is just as good.
 
 ## The Splode Lab family
 
-- **Splode Lab Live**: free desktop app for Windows & macOS (this repo). In preview.
-- **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)**: real-time visual effects for iPad & iPhone on the App Store. 4.6 ★. Draw with fire, tap explosions, and export video loops for your VJ software.
+- **Splode Lab Live**: free desktop app for Windows & macOS (this repo).
+- **[Splode Lab EX](https://apps.apple.com/app/splode-lab-ex/id1275951874)**: real-time visual effects for iPad & iPhone on the App Store. 4.6 stars. Draw with fire, tap explosions, and export video loops for your VJ software.
 
 Two different apps under one name. Pick whichever fits what you're doing.
 
 ## About
 
-This repository hosts the release builds and download page for Splode Lab Live, a free, donation-supported project from Six Foot Games.
+This repository hosts the release builds and download page for Splode Lab Live, a free project from Six Foot Games. Made with love by one stubborn coder.
+</content>
