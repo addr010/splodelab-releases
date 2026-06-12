@@ -1385,10 +1385,10 @@
     "msc_command": null
   },
   {
-    "id": "ctl-l1-size-005",
+    "id": "ctl-music-play",
     "enabled": true,
     "direction": "midi_to_osc",
-    "osc_address": "/splodelab/layer/1/shader/param/size",
+    "osc_address": "/splodelab/command/musicPlay",
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
@@ -1398,24 +1398,16 @@
       "value": 127
     },
     "midi_input_velocity": null,
-    "osc_args": [
-      {
-        "type": "float",
-        "source": {
-          "type": "static",
-          "value": 0.05
-        }
-      }
-    ],
+    "osc_args": [],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
   {
-    "id": "ctl-l1-size-025",
+    "id": "ctl-music-stop",
     "enabled": true,
     "direction": "midi_to_osc",
-    "osc_address": "/splodelab/layer/1/shader/param/size",
+    "osc_address": "/splodelab/command/musicStop",
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
@@ -1425,15 +1417,7 @@
       "value": 127
     },
     "midi_input_velocity": null,
-    "osc_args": [
-      {
-        "type": "float",
-        "source": {
-          "type": "static",
-          "value": 0.25
-        }
-      }
-    ],
+    "osc_args": [],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
