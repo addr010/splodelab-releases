@@ -5,12 +5,23 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 91,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 1 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -21,12 +32,23 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 92,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 2 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -37,12 +59,23 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 93,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 3 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -53,12 +86,23 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 94,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 4 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -69,12 +113,23 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 95,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 5 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 5
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -85,12 +140,23 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 96,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 6 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 6
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -101,12 +167,23 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 97,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 7 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 7
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -117,17 +194,27 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/triggerColumn",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
     "midi_note_or_cc": 98,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 8 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 8
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "clip-l1-c1",
     "enabled": true,
@@ -136,12 +223,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 81,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 51,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 1 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -155,12 +257,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 82,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 52,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 2 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -174,12 +291,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 83,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 53,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 3 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -193,12 +325,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 84,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 54,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 4 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -212,12 +359,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 85,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 55,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 5 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 5
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -231,12 +393,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 86,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 56,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 6 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 6
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -250,12 +427,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 87,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 57,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 7 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 7
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -269,18 +461,32 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 88,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 58,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 1 } },
-      { "type": "int", "source": { "type": "static", "value": 8 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 8
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "clip-l2-c1",
     "enabled": true,
@@ -289,12 +495,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 71,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 61,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 1 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -308,12 +529,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 72,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 62,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 2 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -327,12 +563,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 73,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 63,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 3 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -346,12 +597,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 74,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 64,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 4 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -365,12 +631,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 75,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 65,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 5 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 5
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -384,12 +665,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 76,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 66,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 6 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 6
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -403,12 +699,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 77,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 67,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 7 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 7
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -422,18 +733,32 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 78,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 68,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 2 } },
-      { "type": "int", "source": { "type": "static", "value": 8 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 8
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "clip-l3-c1",
     "enabled": true,
@@ -442,12 +767,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 61,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 71,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 1 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -461,12 +801,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 62,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 72,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 2 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -480,12 +835,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 63,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 73,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 3 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -499,12 +869,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 64,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 74,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 4 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -518,12 +903,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 65,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 75,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 5 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 5
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -537,12 +937,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 66,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 76,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 6 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 6
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -556,12 +971,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 67,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 77,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 7 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 7
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -575,18 +1005,32 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 68,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 78,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 3 } },
-      { "type": "int", "source": { "type": "static", "value": 8 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 8
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "clip-l4-c1",
     "enabled": true,
@@ -595,12 +1039,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 51,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 81,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 1 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -614,12 +1073,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 52,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 82,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 2 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -633,12 +1107,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 53,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 83,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 3 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -652,12 +1141,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 54,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 84,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 4 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -671,12 +1175,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 55,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 85,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 5 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 5
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -690,12 +1209,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 56,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 86,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 6 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 6
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -709,12 +1243,27 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 57,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 87,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 7 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 7
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
@@ -728,18 +1277,32 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 58,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 88,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [
-      { "type": "int", "source": { "type": "static", "value": 4 } },
-      { "type": "int", "source": { "type": "static", "value": 8 } }
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      },
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 8
+        }
+      }
     ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "ctl-l1-opacity-25",
     "enabled": true,
@@ -748,10 +1311,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 41,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 11,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.25 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.25
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -764,10 +1338,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 42,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 12,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.5 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.5
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -780,10 +1365,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 43,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 13,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 1.0 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 1.0
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -796,10 +1392,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 44,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 14,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.05 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.05
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -812,10 +1419,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 45,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 15,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.25 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.25
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -828,8 +1446,11 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 46,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 16,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [],
     "msc_device_id": null,
@@ -844,8 +1465,11 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 47,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 17,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [],
     "msc_device_id": null,
@@ -860,8 +1484,11 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 48,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 18,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
     "osc_args": [],
     "msc_device_id": null,
@@ -874,17 +1501,27 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/stopLayer",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
-    "midi_note_or_cc": 49,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 19,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 1 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "ctl-l2-opacity-25",
     "enabled": true,
@@ -893,10 +1530,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 31,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 21,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.25 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.25
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -909,10 +1557,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 32,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 22,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.5 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.5
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -925,10 +1584,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 33,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 23,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 1.0 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 1.0
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -941,10 +1611,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 34,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 24,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "normal" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "normal"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -957,10 +1638,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 35,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 25,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "add" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "add"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -973,10 +1665,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 36,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 26,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "multiply" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "multiply"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -989,10 +1692,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 37,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 27,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "screen" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "screen"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1005,10 +1719,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 38,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 28,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "difference" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "difference"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1019,17 +1744,27 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/stopLayer",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
-    "midi_note_or_cc": 39,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 29,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 2 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "ctl-l3-opacity-25",
     "enabled": true,
@@ -1038,10 +1773,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 21,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 31,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.25 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.25
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1054,10 +1800,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 22,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 32,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.5 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.5
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1070,10 +1827,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 23,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 33,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 1.0 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 1.0
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1086,10 +1854,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 24,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 34,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "normal" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "normal"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1102,10 +1881,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 25,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 35,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "add" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "add"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1118,10 +1908,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 26,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 36,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "multiply" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "multiply"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1134,10 +1935,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 27,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 37,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "screen" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "screen"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1150,10 +1962,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 28,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 38,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "difference" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "difference"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1164,17 +1987,27 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/stopLayer",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
-    "midi_note_or_cc": 29,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 39,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 3 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
   },
-
   {
     "id": "ctl-l4-opacity-25",
     "enabled": true,
@@ -1183,10 +2016,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 11,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 41,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.25 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.25
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1199,10 +2043,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 12,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 42,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 0.5 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 0.5
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1215,10 +2070,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 13,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 43,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "float", "source": { "type": "static", "value": 1.0 } }],
+    "osc_args": [
+      {
+        "type": "float",
+        "source": {
+          "type": "static",
+          "value": 1.0
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1231,10 +2097,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 14,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 44,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "normal" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "normal"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1247,10 +2124,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 15,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 45,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "add" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "add"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1263,10 +2151,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 16,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 46,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "multiply" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "multiply"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1279,10 +2178,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 17,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 47,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "screen" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "screen"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1295,10 +2205,21 @@
     "osc_arg_types": [],
     "midi_message_type": "note_on",
     "midi_channel": 1,
-    "midi_note_or_cc": 18,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 48,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "string", "source": { "type": "static", "value": "difference" } }],
+    "osc_args": [
+      {
+        "type": "string",
+        "source": {
+          "type": "static",
+          "value": "difference"
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
@@ -1309,12 +2230,131 @@
     "direction": "midi_to_osc",
     "osc_address": "/splodelab/command/stopLayer",
     "osc_arg_types": [],
-    "midi_message_type": "note_on",
+    "midi_message_type": "cc",
     "midi_channel": 1,
-    "midi_note_or_cc": 19,
-    "midi_velocity_or_value": { "type": "static", "value": 127 },
+    "midi_note_or_cc": 49,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
     "midi_input_velocity": null,
-    "osc_args": [{ "type": "int", "source": { "type": "static", "value": 4 } }],
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      }
+    ],
+    "msc_device_id": null,
+    "msc_command_format": null,
+    "msc_command": null
+  },
+  {
+    "id": "ctl-solo-l1",
+    "enabled": true,
+    "direction": "midi_to_osc",
+    "osc_address": "/splodelab/command/soloLayerClip",
+    "osc_arg_types": [],
+    "midi_message_type": "cc",
+    "midi_channel": 1,
+    "midi_note_or_cc": 59,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
+    "midi_input_velocity": null,
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 1
+        }
+      }
+    ],
+    "msc_device_id": null,
+    "msc_command_format": null,
+    "msc_command": null
+  },
+  {
+    "id": "ctl-solo-l2",
+    "enabled": true,
+    "direction": "midi_to_osc",
+    "osc_address": "/splodelab/command/soloLayerClip",
+    "osc_arg_types": [],
+    "midi_message_type": "cc",
+    "midi_channel": 1,
+    "midi_note_or_cc": 69,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
+    "midi_input_velocity": null,
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 2
+        }
+      }
+    ],
+    "msc_device_id": null,
+    "msc_command_format": null,
+    "msc_command": null
+  },
+  {
+    "id": "ctl-solo-l3",
+    "enabled": true,
+    "direction": "midi_to_osc",
+    "osc_address": "/splodelab/command/soloLayerClip",
+    "osc_arg_types": [],
+    "midi_message_type": "cc",
+    "midi_channel": 1,
+    "midi_note_or_cc": 79,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
+    "midi_input_velocity": null,
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 3
+        }
+      }
+    ],
+    "msc_device_id": null,
+    "msc_command_format": null,
+    "msc_command": null
+  },
+  {
+    "id": "ctl-solo-l4",
+    "enabled": true,
+    "direction": "midi_to_osc",
+    "osc_address": "/splodelab/command/soloLayerClip",
+    "osc_arg_types": [],
+    "midi_message_type": "cc",
+    "midi_channel": 1,
+    "midi_note_or_cc": 89,
+    "midi_velocity_or_value": {
+      "type": "static",
+      "value": 127
+    },
+    "midi_input_velocity": null,
+    "osc_args": [
+      {
+        "type": "int",
+        "source": {
+          "type": "static",
+          "value": 4
+        }
+      }
+    ],
     "msc_device_id": null,
     "msc_command_format": null,
     "msc_command": null
