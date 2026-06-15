@@ -325,6 +325,39 @@
 
         .dl-meta span + span::before { content: '\00b7'; margin-right: 0.45rem; }
 
+        .hero-tagline {
+            color: var(--text);
+            font-weight: 500;
+            margin-top: 0.3rem;
+            opacity: 0;
+            animation: reveal 0.6s ease forwards 0.4s;
+        }
+
+        /* ---- WHO ---- */
+
+        .who {
+            padding: 3.5rem 0;
+            border-top: 1px solid var(--border);
+        }
+
+        .who h2 {
+            font-family: 'Bricolage Grotesque', sans-serif;
+            font-weight: 800;
+            font-size: clamp(1.7rem, 4vw, 2.4rem);
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+            margin-bottom: 0.7rem;
+        }
+
+        .who h2 .hl { color: var(--accent); }
+
+        .who p {
+            color: var(--text-dim);
+            font-size: 1rem;
+            line-height: 1.65;
+            max-width: 56ch;
+        }
+
         /* ---- STEPS / FEATURES ---- */
 
         .steps { padding: 1rem 0 3rem; }
@@ -423,6 +456,16 @@
             color: var(--text-dim);
             font-size: 0.88rem;
             line-height: 1.5;
+        }
+
+        .extend-visual {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin: 0 0 2rem;
+            display: block;
         }
 
         /* ---- STORY ---- */
@@ -711,7 +754,7 @@
         }
 
         @media (prefers-reduced-motion: reduce) {
-            .hero h1, .hero-sub, .hero-body, .hero-actions, .dl-meta {
+            .hero h1, .hero-sub, .hero-body, .hero-actions, .dl-meta, .hero-tagline {
                 opacity: 1;
                 animation: none;
             }
@@ -758,19 +801,7 @@
     <main>
         <section class="hero wrap">
             <h1>Splode Lab <span class="hl">Live</span></h1>
-            <p class="hero-sub">Free desktop VJ software.</p>
-            <div class="hero-body">
-                <p>
-                    I've been making tools for video, audio, and MIDI for years. Game designers, animators, VFX artists, sports teams, odd little side projects.
-                    Splode Lab is my toolbox of experiments, hacks and utilities.
-                </p>
-                <p>
-                    Splode Lab Live pulls together the parts of that toolbox that are fun to use live.
-                    Clip decks, MilkDrop presets, ISF shaders, JavaScript motion graphics and audio reactivity. NDI, Syphon, Spout, OSC and MIDI support.
-                    The UI is clean enough to jam with, and if you want more, open a text editor. Most of it is exposed and hackable.
-                </p>
-                <p class="no-bs">No subscriptions. No accounts. No bullshit.</p>
-            </div>
+            <p class="hero-sub">Free VJ software for experiments, small shows and people just getting started.</p>
             <div class="download-band">
                 <div class="hero-actions" id="hero-downloads">
                     <span class="btn btn-ghost btn-lg" style="opacity:0.5;pointer-events:none">Loading builds&hellip;</span>
@@ -784,15 +815,17 @@
                 <span>May 2026</span>
                 <span>Windows &amp; macOS (Apple Silicon ready)</span>
             </p>
+            <p class="hero-tagline">No subscriptions. No accounts. No bullshit.</p>
         </section>
 
 
-        <section class="extend wrap">
+        <section class="extend wrap" id="what">
             <div class="extend-head">
-                <span class="step-num">NATIVE APP</span>
-                <h2>Built for speed</h2>
-                <p>Behind the UI are several native apps running the show.  I enjoy optimizing performance.  It can always be better and I'm always looking for ways to improve.</p>
+                <span class="step-num">WHAT IT DOES</span>
+                <h2>Clips, shaders, MilkDrop, scripts and live inputs</h2>
+                <p>Play clips, shaders, MilkDrop presets, JavaScript scripts and live inputs. MIDI, OSC, NDI, Syphon and Spout support baked in.</p>
             </div>
+            <img class="extend-visual" src="vudl-studio.png" srcset="vudl-studio@2x.png 2x" alt="Splode Lab Live Vōdl studio: live visual scripting with real-time preview, quad probe, and text-based layer choreography" loading="lazy" width="800" height="1221">
             <div class="extend-grid">
                 <div class="extend-cell">
                     <h4>Render FX</h4>
@@ -803,6 +836,10 @@
                     <p>Write scripts for motion graphics, games or deck controls and live chopping on video.</p>
                 </div>
                 <div class="extend-cell">
+                    <h4>Vōdl scripting</h4>
+                    <p>Script every layer at once with text. Expressions, envelopes, shader control and audio-reactive timing.</p>
+                </div>
+                <div class="extend-cell">
                     <h4>OSC</h4>
                     <p>Drive it from other tools, controllers, scripts or your own weird rig.</p>
                 </div>
@@ -810,22 +847,26 @@
                     <h4>MIDI</h4>
                     <p>Use MIDI for control, scripts and clock sync.</p>
                 </div>
-                 <div class="extend-cell">
-                    <h4>LIVE SOURCES</h4>
-                    <p>Use NDI or Syphon/Spout for video input.</p>
-                </div>
                 <div class="extend-cell">
-                    <h4>Your own stuff</h4>
-                    <p>Live feed of your fishtank controlling an ambient set - go for it.</p>
+                    <h4>Live sources</h4>
+                    <p>NDI, Syphon, Spout, Blackhole or your fishtank over a webcam. Whatever you've got.</p>
                 </div>
             </div>
         </section>
 
+        <section class="who wrap" id="who">
+            <h2>Who it's <span class="hl">for</span></h2>
+            <p>Beginners, bedroom setups, home and friends shows, student work, gallery installs, prototypes and weird visual experiments.</p>
+        </section>
+
         <section class="story wrap" id="story">
             <div class="story-head">
-                <h2>Made because <span class="hl">I like making stuff</span></h2>
+                <h2>Why it <span class="hl">exists</span></h2>
             </div>
             <div class="story-body">
+                <p>
+                    Splode Lab started as my own toolbox for video, audio, MIDI and odd creative experiments. Live pulls the fun parts together: clip decks, shaders, scripts, live sources, controller support and audio-reactive visuals.
+                </p>
                 <p>
                     I like trying new ideas and new tech. If you have a feature you want, make it sound fun and I might have a crack at it.
                 </p>

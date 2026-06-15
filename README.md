@@ -25,6 +25,28 @@ I built it to be used on stage, not just for pretty renders.
 - Auto-play mode so you can focus on the music
 - Open and hackable on purpose
 
+### Vodl scripting
+
+Write a `.vudl.txt` file to choreograph every layer at once. Expressions, envelopes, oscillators and shader params. Save the file and it hot-reloads live.
+
+```text
+# Star clip on L1 loops and spins; L2 title fades.
+
+.env(titleIn,
+  0% 0
+  100% 1 easeInOut
+)
+
+L1:
+  <[a b c]*4>
+  rotation saw.every(3 bar)*180
+  scale 1 + tri.every(1 beat)*0.12
+
+L2:
+  positionY 0.35
+  opacity env(titleIn 2:1->3:1)
+```
+
 ## Download
 
 Get the latest release for Windows or macOS from the [download page](https://splodelab.com/).
@@ -48,7 +70,6 @@ Get the latest release for Windows or macOS from the [download page](https://spl
 
 ## Community & support
 
-- Free community on [Skool](https://www.skool.com/pixel-pig-2056) for tutorials, workflow breakdowns and help. No Discord required.
 - Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issues).
 - If the app is useful and you want to support development, there's a [Buy Me A Coffee](https://buymeacoffee.com/gammaridersworld). A simple thanks is just as good.
 
