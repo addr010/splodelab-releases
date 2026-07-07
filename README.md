@@ -68,6 +68,15 @@ Get the latest release for Windows or macOS from the [download page](https://spl
 - **macOS:** macOS 11 (Big Sur) or later (Apple Silicon)
 - **GPU:** OpenGL 3.3+ compatible graphics card
 
+## Local music analysis (optional)
+
+The music sync button analyzes a song into beats and bars so the transport locks to the actual track. To enable it, install Python:
+
+1. Install Python 3.10+ and make sure `python3` is on your PATH
+2. `pip3 install librosa`
+
+That's it. If analysis fails, the app log records why.
+
 ## Community & support
 
 - Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issues).
