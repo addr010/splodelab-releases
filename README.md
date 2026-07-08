@@ -77,6 +77,14 @@ The music sync button analyzes a song into beats and bars so the transport locks
 
 That's it. If analysis fails, the app log records why.
 
+## Guides
+
+- [Splode Lab Live + Mixxx setup](docs/mixxx-setup.md): route audio and MIDI timing from [Mixxx](https://mixxx.org/download/) into the app.
+
+## Conduit and OSC control
+
+Splode Lab Live speaks OSC, and [Conduit](https://github.com/sndwrks/conduit) is a great way to drive it. Conduit bridges MIDI to OSC, and this repo ships ready-made [mappings](conduit/) for it, including built-in lighting feedback for the Novation Launchpad Mini Mk3. See the [Mixxx setup guide](docs/mixxx-setup.md#launchpad-mk3-mini-lighting-feedback) for details.
+
 ## Community & support
 
 - Found a bug? [Open an issue](https://github.com/addr010/splodelab-releases/issues).
