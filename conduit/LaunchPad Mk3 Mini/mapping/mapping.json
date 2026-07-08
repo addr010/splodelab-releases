@@ -12,7 +12,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -21,10 +20,7 @@
           "value": 1
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "col-2",
@@ -39,7 +35,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -48,10 +43,7 @@
           "value": 2
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "col-3",
@@ -66,7 +58,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -75,10 +66,7 @@
           "value": 3
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "col-4",
@@ -93,7 +81,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -102,10 +89,7 @@
           "value": 4
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "col-5",
@@ -120,7 +104,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -129,10 +112,7 @@
           "value": 5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "col-6",
@@ -147,7 +127,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -156,10 +135,7 @@
           "value": 6
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "col-7",
@@ -174,7 +150,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -183,10 +158,7 @@
           "value": 7
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "col-8",
@@ -201,7 +173,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -210,10 +181,7 @@
           "value": 8
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c1",
@@ -228,7 +196,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -244,10 +211,7 @@
           "value": 1
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c2",
@@ -262,7 +226,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -278,10 +241,7 @@
           "value": 2
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c3",
@@ -296,7 +256,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -312,10 +271,7 @@
           "value": 3
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c4",
@@ -330,7 +286,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -346,10 +301,7 @@
           "value": 4
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c5",
@@ -364,7 +316,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -380,10 +331,7 @@
           "value": 5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c6",
@@ -398,7 +346,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -414,10 +361,7 @@
           "value": 6
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c7",
@@ -432,7 +376,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -448,10 +391,7 @@
           "value": 7
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l1-c8",
@@ -466,7 +406,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -482,10 +421,7 @@
           "value": 8
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c1",
@@ -500,7 +436,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -516,10 +451,7 @@
           "value": 1
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c2",
@@ -534,7 +466,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -550,10 +481,7 @@
           "value": 2
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c3",
@@ -568,7 +496,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -584,10 +511,7 @@
           "value": 3
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c4",
@@ -602,7 +526,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -618,10 +541,7 @@
           "value": 4
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c5",
@@ -636,7 +556,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -652,10 +571,7 @@
           "value": 5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c6",
@@ -670,7 +586,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -686,10 +601,7 @@
           "value": 6
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c7",
@@ -704,7 +616,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -720,10 +631,7 @@
           "value": 7
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l2-c8",
@@ -738,7 +646,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -754,10 +661,7 @@
           "value": 8
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c1",
@@ -772,7 +676,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -788,10 +691,7 @@
           "value": 1
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c2",
@@ -806,7 +706,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -822,10 +721,7 @@
           "value": 2
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c3",
@@ -840,7 +736,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -856,10 +751,7 @@
           "value": 3
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c4",
@@ -874,7 +766,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -890,10 +781,7 @@
           "value": 4
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c5",
@@ -908,7 +796,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -924,10 +811,7 @@
           "value": 5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c6",
@@ -942,7 +826,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -958,10 +841,7 @@
           "value": 6
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c7",
@@ -976,7 +856,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -992,10 +871,7 @@
           "value": 7
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l3-c8",
@@ -1010,7 +886,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1026,10 +901,7 @@
           "value": 8
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c1",
@@ -1044,7 +916,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1060,10 +931,7 @@
           "value": 1
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c2",
@@ -1078,7 +946,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1094,10 +961,7 @@
           "value": 2
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c3",
@@ -1112,7 +976,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1128,10 +991,7 @@
           "value": 3
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c4",
@@ -1146,7 +1006,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1162,10 +1021,7 @@
           "value": 4
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c5",
@@ -1180,7 +1036,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1196,10 +1051,7 @@
           "value": 5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c6",
@@ -1214,7 +1066,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1230,10 +1081,7 @@
           "value": 6
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c7",
@@ -1248,7 +1096,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1264,10 +1111,7 @@
           "value": 7
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "clip-l4-c8",
@@ -1282,7 +1126,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1298,10 +1141,7 @@
           "value": 8
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l1-opacity-25",
@@ -1316,7 +1156,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1325,10 +1164,7 @@
           "value": 0.25
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l1-opacity-50",
@@ -1343,7 +1179,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1352,10 +1187,7 @@
           "value": 0.5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l1-opacity-100",
@@ -1370,7 +1202,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1379,10 +1210,7 @@
           "value": 1.0
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-music-play",
@@ -1397,11 +1225,7 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
-    "osc_args": [],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    "osc_args": []
   },
   {
     "id": "ctl-music-stop",
@@ -1416,11 +1240,7 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
-    "osc_args": [],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    "osc_args": []
   },
   {
     "id": "ctl-stop-all",
@@ -1435,11 +1255,7 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
-    "osc_args": [],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    "osc_args": []
   },
   {
     "id": "ctl-tap",
@@ -1454,11 +1270,7 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
-    "osc_args": [],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    "osc_args": []
   },
   {
     "id": "ctl-reset-bar",
@@ -1473,11 +1285,7 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
-    "osc_args": [],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    "osc_args": []
   },
   {
     "id": "ctl-stop-l1",
@@ -1492,7 +1300,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1501,10 +1308,7 @@
           "value": 1
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-opacity-25",
@@ -1519,7 +1323,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1528,10 +1331,7 @@
           "value": 0.25
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-opacity-50",
@@ -1546,7 +1346,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1555,10 +1354,7 @@
           "value": 0.5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-opacity-100",
@@ -1573,7 +1369,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1582,10 +1377,7 @@
           "value": 1.0
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-blend-normal",
@@ -1600,7 +1392,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1609,10 +1400,7 @@
           "value": "normal"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-blend-add",
@@ -1627,7 +1415,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1636,10 +1423,7 @@
           "value": "add"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-blend-multiply",
@@ -1654,7 +1438,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1663,10 +1446,7 @@
           "value": "multiply"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-blend-screen",
@@ -1681,7 +1461,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1690,10 +1469,7 @@
           "value": "screen"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l2-blend-difference",
@@ -1708,7 +1484,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1717,10 +1492,7 @@
           "value": "difference"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-stop-l2",
@@ -1735,7 +1507,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1744,10 +1515,7 @@
           "value": 2
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-opacity-25",
@@ -1762,7 +1530,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1771,10 +1538,7 @@
           "value": 0.25
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-opacity-50",
@@ -1789,7 +1553,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1798,10 +1561,7 @@
           "value": 0.5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-opacity-100",
@@ -1816,7 +1576,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -1825,10 +1584,7 @@
           "value": 1.0
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-blend-normal",
@@ -1843,7 +1599,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1852,10 +1607,7 @@
           "value": "normal"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-blend-add",
@@ -1870,7 +1622,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1879,10 +1630,7 @@
           "value": "add"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-blend-multiply",
@@ -1897,7 +1645,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1906,10 +1653,7 @@
           "value": "multiply"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-blend-screen",
@@ -1924,7 +1668,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1933,10 +1676,7 @@
           "value": "screen"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l3-blend-difference",
@@ -1951,7 +1691,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -1960,10 +1699,7 @@
           "value": "difference"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-stop-l3",
@@ -1978,7 +1714,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -1987,10 +1722,7 @@
           "value": 3
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-opacity-25",
@@ -2005,7 +1737,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -2014,10 +1745,7 @@
           "value": 0.25
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-opacity-50",
@@ -2032,7 +1760,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -2041,10 +1768,7 @@
           "value": 0.5
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-opacity-100",
@@ -2059,7 +1783,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "float",
@@ -2068,10 +1791,7 @@
           "value": 1.0
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-blend-normal",
@@ -2086,7 +1806,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -2095,10 +1814,7 @@
           "value": "normal"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-blend-add",
@@ -2113,7 +1829,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -2122,10 +1837,7 @@
           "value": "add"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-blend-multiply",
@@ -2140,7 +1852,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -2149,10 +1860,7 @@
           "value": "multiply"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-blend-screen",
@@ -2167,7 +1875,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -2176,10 +1883,7 @@
           "value": "screen"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-l4-blend-difference",
@@ -2194,7 +1898,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "string",
@@ -2203,10 +1906,7 @@
           "value": "difference"
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-stop-l4",
@@ -2221,7 +1921,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -2230,10 +1929,7 @@
           "value": 4
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-solo-l1",
@@ -2248,7 +1944,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -2257,10 +1952,7 @@
           "value": 1
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-solo-l2",
@@ -2275,7 +1967,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -2284,10 +1975,7 @@
           "value": 2
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-solo-l3",
@@ -2302,7 +1990,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -2311,10 +1998,7 @@
           "value": 3
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   },
   {
     "id": "ctl-solo-l4",
@@ -2329,7 +2013,6 @@
       "type": "static",
       "value": 127
     },
-    "midi_input_velocity": null,
     "osc_args": [
       {
         "type": "int",
@@ -2338,9 +2021,6 @@
           "value": 4
         }
       }
-    ],
-    "msc_device_id": null,
-    "msc_command_format": null,
-    "msc_command": null
+    ]
   }
 ]
